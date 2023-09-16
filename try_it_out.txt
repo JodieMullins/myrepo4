@@ -85,12 +85,12 @@ last_exhibit_cleaning date,
 approximate_age numeric,
 -- TIME SPECIFIC INCREMENTS IN SQL???
 show_times varchar (25),
-
+);
 
 
 ----------------------------------------------
 
-CHAPTER 3: TRY IT YOURSELF
+CHAPTER 3: 
 
 
 -- list the schools in alphabetical order AND
@@ -114,15 +114,4 @@ FROM teachers
 WHERE hire_date >= '2010-01-01'
 ORDER BY salary DESC;
 
-
----------------------------------------------------
-
-CHAPTER 4: TRY IT YOURSELF
-
--- Track mileage to a tenth of a mile
--- Assume no driver goes beyond 999 miles per day
-
-CREATE TABLE deliveries (
-id serial, 
-mileage decimal,
 

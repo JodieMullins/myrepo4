@@ -1,14 +1,26 @@
 // document.getElementById("count").innerText = 5
 
+let countEl = document.getElementById("count-el")
+
+console.log(countEl)
+
 let count = 0
 console.log(count)
 
 
-let myAge = 29
-let humanDogRatio = 7
+function increase() {
+    count = count + 1
+    countEl.innerText = count
+    console.log(count)
+}
 
-let myDogAge = myAge * humanDogRatio
-console.log(myDogAge)
+
+increase
+// let myAge = 29
+// let humanDogRatio = 7
+
+// let myDogAge = myAge * humanDogRatio
+// console.log(myDogAge)
 
 // Create a variable, bonusPoints. Initialize it as 50.
 // let bonusPoints = 50
@@ -35,4 +47,25 @@ function galaxyAnswer() {
 
 }
 
+/*
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
 
+function loggedLaps() {
+    console.log(lap1 + lap2 + lap3)
+
+}
+*/
+/*
+function incrementLap() {
+    lapsCompleted = lapsCompleted +1
+
+
+}
+incrementLap()
+incrementLap()
+incrementLap()
+
+console.log(lapsCompleted)
+*/

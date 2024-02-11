@@ -1,6 +1,7 @@
 // document.getElementById("count").innerText = 5
 
 let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 
 console.log(countEl)
 
@@ -9,20 +10,22 @@ console.log(count)
 
 
 function increase() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
     console.log(count)
 }
 
 
-increase
+
 
 function save() {
-    console.log(count)
-   // document.getElementById("save-btn")
+    let countKeeper = count + " - "
+    saveEl.textContent += countKeeper
+    count = 0
+    countEl.textContent = count
+    // console.log(count, " - ")
    // console.log("Count has been saved!")
 }
-save()
 
 // let myAge = 29
 // let humanDogRatio = 7
@@ -88,12 +91,12 @@ console.log(lapsCompleted)
 
 // Create two variables, name and greeting. The name variable should store your name,
 
-let personName = "Human"
-let greeting = "Hi, my name is "
+// let personName = "Human"
+// let greeting = "Hi, my name is "
 
-let myGreeting = greeting + personName + "!"
-// and the greeting should store e.g. "Hi, my name is "
-// Create a third variable, myGreeting, that contatenates the two strings
-// Log myGreeting to the console
+// let myGreeting = greeting + personName + "!"
+// // and the greeting should store e.g. "Hi, my name is "
+// // Create a third variable, myGreeting, that contatenates the two strings
+// // Log myGreeting to the console
 
-console.log(myGreeting)
+// console.log(myGreeting)

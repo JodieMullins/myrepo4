@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Welcome Message</title>
+    </head>
+
+
+    <body>
+        <p id="welcome-el"></p>
+        <script src="inter.js"></script>
+    </body>
+</html>
+
+
+// document.getElementById("count").innerText = 5
+//inter.js
+
+let welcomeEl = document.getElementById("welcome-el")
+
+let humanName = "Person"
+let greeting = "Hi, my name is "
+let totalGreetMessage = greeting + humanName + "! 👋 "
+
+welcomeEl.innerText = totalGreetMessage
+
+

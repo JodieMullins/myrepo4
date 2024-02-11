@@ -16,6 +16,14 @@ function increase() {
 
 
 increase
+
+function save() {
+    console.log(count)
+   // document.getElementById("save-btn")
+   // console.log("Count has been saved!")
+}
+save()
+
 // let myAge = 29
 // let humanDogRatio = 7
 
@@ -69,3 +77,23 @@ incrementLap()
 
 console.log(lapsCompleted)
 */
+
+// let username = "person"
+
+// let notificationMessage = "You have 3 new notifications"
+
+// let messageToUser = notificationMessage + ", " +username + "!"
+
+// console.log(messageToUser)
+
+// Create two variables, name and greeting. The name variable should store your name,
+
+let personName = "Human"
+let greeting = "Hi, my name is "
+
+let myGreeting = greeting + personName + "!"
+// and the greeting should store e.g. "Hi, my name is "
+// Create a third variable, myGreeting, that contatenates the two strings
+// Log myGreeting to the console
+
+console.log(myGreeting)
